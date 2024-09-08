@@ -41,6 +41,7 @@ python run.py --dataset mvtec --load_results 'mvtec_results' --image_size 240 --
 ```
 
 ## Results
+#### Once anomaly detection is complete, you can view the pixel-level AUC and image-level AUC in a tabular format.
 | objects    |   AUC (Pixel-level) |       AUC (Image-level) | 
 |:-----------|-----------:|-----------:|
 | carpet     |       90.9  |       99.3 |    
@@ -58,7 +59,8 @@ python run.py --dataset mvtec --load_results 'mvtec_results' --image_size 240 --
 | zipper     |       91.7 |         91.2 |    
 | tile       |       79.1 |          99.9 |   
 | wood       |       85.1 |           97.6 |  
-| mean       |       82.3 |           90.4 |    
+| mean       |       **82.3** |           **90.4** |    
+
 #### Validation results can be found on the path ```results/{dataset}/imgs/{mode}```.  
 | Mode: heat (heatmap)                                                                             |
 |----------------------------------------------------------------------------------------------------------------------|
