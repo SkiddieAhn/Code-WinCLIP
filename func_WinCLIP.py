@@ -135,8 +135,8 @@ def normalize(pred, max_value=None, min_value=None):
         return (pred - min_value) / (max_value - min_value)
     
 
-def apply_ad_scoremap(image, scoremap, alpha=0.5, mode='seg'):
-    if mode == 'heat':
+def apply_ad_scoremap(image, scoremap, alpha=0.5, mode='attn'):
+    if mode == 'attn':
         np_image = np.asarray(image, dtype=float)
         scoremap = np.repeat(scoremap[:,:,np.newaxis], 3, axis=2)
         applied = (np_image * scoremap).astype(np.uint8)
