@@ -1,4 +1,4 @@
-# WinCLIP (Zero-Shot)
+# WinCLIP (Zero-Shot AD)
 Pytorch implementation of WinCLIP paper for CVPR 2023: [WinCLIP](https://arxiv.org/pdf/2303.14814).  
 Most codes were obtained from the following GitHub page: [[Link]](https://github.com/zqhang/Accurate-WinCLIP-pytorch)  
 
