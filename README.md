@@ -14,10 +14,10 @@ torchvision
 Other common packages.  
 
 ## Dataset
-- **MVTec AD** dataset is a benchmark collection for anomaly detection in industrial images, featuring various objects and textures with annotated defects.
+- **MVTec-AD** dataset is a benchmark collection for anomaly detection in industrial images, featuring various objects and textures with annotated defects.
 - Download ```meta.json``` and move it to the downloaded ```mvtec``` dataset directory.
 
-|     MVTec AD            |     meta.json            |
+|     MVTec-AD            |     meta.json            |
 |:------------------------:|:------------------------:|
 | [MVTec](https://www.mvtec.com/company/research/datasets/mvtec-ad)   | [Google Drive](https://drive.google.com/file/d/11AdQpF3bhVCI0PoIVkku2OwJpoKKiJC_/view?usp=drive_link)  
 
@@ -41,7 +41,7 @@ python run.py --dataset mvtec --load_results 'mvtec_results' --image_size 240 --
 ```
 
 ## Results
-#### Once anomaly detection is complete, you can view the ```pixel-level and image-level AUC``` in a tabular format.
+#### Once anomaly detection is complete, you can check the ```pixel-level and image-level AUC``` in a tabular format.
 | objects    |   AUC (Pixel-level) |       AUC (Image-level) | 
 |:-----------|-----------:|-----------:|
 | carpet     |       90.9  |       99.3 |    
