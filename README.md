@@ -41,7 +41,7 @@ python run.py --dataset mvtec --load_results 'mvtec_results' --image_size 240 --
 ```
 
 ## Results
-#### Once anomaly detection is complete, you can view the pixel-level AUC and image-level AUC in a tabular format.
+#### Once anomaly detection is complete, you can view the ```pixel-level and image-level AUC``` in a tabular format.
 | objects    |   AUC (Pixel-level) |       AUC (Image-level) | 
 |:-----------|-----------:|-----------:|
 | carpet     |       90.9  |       99.3 |    
